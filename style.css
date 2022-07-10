@@ -78,6 +78,7 @@ body {
 }
 .donate-footer h3{
     border-bottom: 3px solid gray;
+    padding-bottom: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 15px;
@@ -115,17 +116,19 @@ body {
 }
 .container{
     display: flex;
+    background-color: rgba(175, 177, 176, 0.594);
+    padding-left: 10%;
 }
 .half-width{
     width: 30%;
     margin-left: 10%;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
     color: black;
 }
 .half-width img{
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 50%;
     border-radius: 5px;
 }
 .half-width h1{
@@ -135,6 +138,50 @@ body {
 .half-width p{
     color: gray;
     padding-bottom: 10px;
+}
+.donar-summery{
+    display: flex;
+}
+.gallery h1{
+    text-align: center;
+    border-bottom: 3px solid gray;
+    width: 60%;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20%;
+
+}
+.gallery-image{
+    display: flex;
+    width: 20%;
+    padding-bottom: 20px;
+    margin-left: 17%;
+}
+.gallery-image img{
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.donar-summery-item{
+    margin-top: 50px;
+    background-color:rgb(145, 246, 199);
+    width: 15%;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.donar-summery-item h1{
+    font-size: 50px;
+}
+.donar-summery-item p{
+    font-size: 30px;
 }
 .get-my-updates{
     /*display:block;*/
@@ -185,12 +232,19 @@ body {
 footer{
     background-color: black;
 }
-.foter-item{
+.footer-item{
     display: flex;
     margin-left: 10%;
 }
 footer h2{
     color: tomato;
+}
+.footer-half-width{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: gray;
 }
 #copyright{
     text-align: center;
