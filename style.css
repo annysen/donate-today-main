@@ -35,6 +35,7 @@ body {
     background-color: tomato;
     margin-top: 30px;
     font-weight: bold;
+    text-align: center;
 }
 .tomato-text{
     color: tomato;
@@ -134,4 +135,64 @@ body {
 .half-width p{
     color: gray;
     padding-bottom: 10px;
+}
+.get-my-updates{
+    /*display:block;*/
+    text-align: center;
+    padding-bottom: 100px;
+}
+.get-my-updates-text h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.get-my-updates-text p{
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+.subscribe-item
+{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(254, 186, 174);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+#email{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    border: 3px solid rgb(254, 186, 174);
+    border-radius: 5px;
+    margin-left: 25%;
+
+}
+#submit{
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 10%;
+}
+footer{
+    background-color: black;
+}
+.foter-item{
+    display: flex;
+    margin-left: 10%;
+}
+footer h2{
+    color: tomato;
+}
+#copyright{
+    text-align: center;
+    padding-bottom: 50px;
 }
